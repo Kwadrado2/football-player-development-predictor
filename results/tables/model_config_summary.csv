@@ -1,0 +1,9 @@
+Component,Setting
+Train/test split,"GroupShuffleSplit, grouped by Player, test_size=0.25, random_state=772"
+Missing value imputation,"SimpleImputer, strategy=""median"", fit on train only"
+Feature scaling (LR only),"StandardScaler, fit on train only"
+Logistic Regression,"class_weight='balanced', max_iter=1000, random_state=772"
+Random Forest,"n_estimators=300, class_weight='balanced', max_depth=8, min_samples_leaf=5, random_state=772"
+XGBoost,"n_estimators=300, max_depth=4, learning_rate=0.05, scale_pos_weight=10.5, eval_metric='aucpr', random_state=772"
+Classification threshold (confusion matrices),"0.5 (nominal reference, not tuned per model)"
+Feature count,14 features (see Section 2)

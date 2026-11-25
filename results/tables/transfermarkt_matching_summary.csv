@@ -1,0 +1,8 @@
+metric,value
+unique_players_in_matching,1539
+resolved_transfermarkt_player_ids,1466
+player_season_rows_with_transfermarkt_id,95.8%
+rows_with_observation_valuation_within_180_days,2750
+rows_with_two_year_later_valuation_within_180_days,2646
+output_rows,2872
+output_columns,296

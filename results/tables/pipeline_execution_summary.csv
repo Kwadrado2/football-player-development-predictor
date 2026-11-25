@@ -1,0 +1,7 @@
+stage,verification_result,status
+01 FBref integration,"25,768 combined rows; 6,231 observation-scope rows",Executed
+02 Understat integration,"18,827 rows after cleaning; 5 league workbooks",Executed
+03 FBref–Understat matching,"3,007 eligible FBref player-seasons; 2,872 matched output rows; 95.5% match rate",Executed
+04 Transfermarkt matching,"2,872 rows; 1,466 player IDs; 2,750 observation valuations; 2,646 future valuations",Executed
+05 Composite label,"2,764 rows; 249 positive and 2,515 negative labels",Executed
+07 Modelling and SHAP,Logistic regression ROC-AUC 0.632; PR-AUC 0.158; scouting top-100 hits 16 vs 5,Executed
